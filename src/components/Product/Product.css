@@ -1,11 +1,11 @@
 .product {
-    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border: 1px solid #95A0A7;
     border-radius: 8px;
-    width: 300px;
-    height: 520px;
     padding: 8px 7px 0px 7px;
     position: relative;
+    height: 620px;
+    width: 100%;
 }
 
 .product img {
@@ -34,15 +34,19 @@
 .btn-cart {
     width: 100%;
     background-color: #FFE0B3;
-    border-top: 1px solid #95A0A7;
+    border-width: 1px 0 0 0; 
+    border-color: #95A0A7;
     border-radius: 0px 0px 8px 8px;
     position: absolute;
     color: black;
     bottom: 0;
     left: 0;
-    border-collapse: collapse;
+    padding: 15px 0px;
 }
 
+
 .btn-cart:hover {
+    border: 2px solid black;
     background-color: #cd7e07;
+    color: #fff;
 }

@@ -1,5 +1,6 @@
 import axios, { Axios } from 'axios';
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import './Shop.css';
 
@@ -16,7 +17,7 @@ const Shop = () => {
     useEffect(() => {
         const loadData = async () => {
             try {
-                const response = await axios.get('https://raw.githubusercontent.com/ProgrammingHero1/ema-john-resources/main/fakeData/products.json')
+                const response = await axios.get('products.json')
                 // const data = await res.json();
                 setProducts(response.data);
             } catch (error) {
@@ -37,8 +38,7 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <h4>Order Summery</h4>
-                <p>Selected Item: {cart.length}</p>
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );

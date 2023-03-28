@@ -10,7 +10,9 @@ const Product = (props) => {
 
     return (
         <div className='product'>
-            <img src={img} alt="" />
+            <div className='product-image'>
+                <img src={img} alt="" />
+            </div>
             <div className='product-body'>
                 <h6 className='product-name'>{name}</h6>
                 <p style={{ marginBottom: '30px' }}>Price: ${price}</p>
