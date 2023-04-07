@@ -9,3 +9,18 @@
 .cart p {
   font-size: 17px;
 }
+
+.btn-clear-cart {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  padding: 8px 10px;
+  background: #ff3030;
+  border-radius: 4px;
+  color: #fff;
+  justify-content: space-between;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+  cursor: pointer;
+}
