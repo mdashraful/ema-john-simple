@@ -12,6 +12,24 @@
   padding: 100px 100px;
 }
 
+.btn-proceed {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  padding: 8px 10px;
+  background: #ff9900;
+  border-radius: 4px;
+  color: #fff;
+  justify-content: space-between;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+  cursor: pointer;
+}
+.proceed-link {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 577px) {
   .shop-container {
     grid-template-columns: 1fr;
