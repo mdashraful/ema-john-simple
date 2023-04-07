@@ -1,19 +1,20 @@
 .header {
-    height: 80px;
-    background-color: #1C2B35;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 100px;
+  height: 80px;
+  background-color: #1c2b35;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  /* position: fixed; */
 }
 
 .header > div a {
-    font-weight: 500;
-    color: #fff;
-    text-decoration: none;
-    margin-left: 30px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 30px;
 }
 
 .header > div a:hover {
-    color: #FF9900;
+  color: #ff9900;
 }

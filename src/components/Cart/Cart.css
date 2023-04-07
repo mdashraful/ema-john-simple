@@ -3,7 +3,7 @@
   padding: 25px;
   position: sticky;
   top: 0;
-  min-height: calc(1000vh - 80px);
+  height: calc(100vh);
 }
 
 .cart p {
