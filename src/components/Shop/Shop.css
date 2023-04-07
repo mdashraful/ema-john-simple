@@ -1,14 +1,19 @@
 .shop-container {
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-    gap: 20px;
-    
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 20px;
 }
 
 .products-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template-rows: auto;
-    gap: 50px;
-    padding: 100px 100px; 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+  gap: 50px;
+  padding: 100px 100px;
+}
+
+@media screen and (max-width: 577px) {
+  .shop-container {
+    grid-template-columns: 1fr;
+  }
 }
